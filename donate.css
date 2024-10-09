@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.main-div
+{
+    background: rgba(0,0,0,.5);
+    width: 500px;
+    height: 530px;
+    margin-top:2%;
+    margin-left: 33%;
+    padding: 15px;
+    text-align: center;
+
+}
+.main-div:hover
+{
+box-shadow: 12px 12px 12px rgba(0,0,0,0.4);
+}
+input
+{
+width: 200px;
+height: 45px;
+border-radius: 1em;
+border-color: rgb(168, 103, 230);
+background-color: rgba(0,0,0,0.4);
+color: aqua;
+}
+
+
+#btn-donate
+{
+    width: 150px;
+    height: 40px;
+    background-color:black ;
+    color: white;
+    font-size: large;
+    border: none;
+    background-color:transparent ;
+}
+
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/donate.jpg');
+}
